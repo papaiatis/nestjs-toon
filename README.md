@@ -5,6 +5,8 @@
 
 NestJS library for [TOON (Token-Oriented Object Notation)](https://toonformat.dev/) serialization support. Reduce API response tokens by 30-60% for LLM-powered applications.
 
+> **Built on [@toon-format/toon](https://github.com/toon-format/toon)** - This library provides NestJS integration for the official TOON format library. Full credit to the TOON format creators for the core serialization implementation.
+
 ## What is TOON?
 
 TOON (Token-Oriented Object Notation) is a compact, human-readable format designed specifically for Large Language Model contexts. It merges YAML-style indentation with CSV-like tabular arrays to minimize token usage while maintaining structure clarity.
