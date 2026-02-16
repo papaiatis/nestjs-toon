@@ -1,0 +1,79 @@
+{
+  "name": "nestjs-toon",
+  "version": "0.1.0",
+  "description": "NestJS library for TOON (Token-Oriented Object Notation) serialization support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc -p tsconfig.build.json",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint \"{src,test}/**/*.ts\" --fix",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:cov": "vitest run --coverage",
+    "test:ui": "vitest --ui",
+    "test:e2e": "vitest run --config vitest.e2e.config.ts",
+    "prepublishOnly": "npm run build && npm run test"
+  },
+  "keywords": [
+    "nestjs",
+    "toon",
+    "serialization",
+    "llm",
+    "token-optimization",
+    "interceptor",
+    "content-negotiation"
+  ],
+  "author": "Attila Papai",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/papaiatis/nestjs-toon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/papaiatis/nestjs-toon/issues"
+  },
+  "homepage": "https://github.com/papaiatis/nestjs-toon#readme",
+  "dependencies": {
+    "@toon-format/toon": "^2.1.0"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/platform-express": "^11.0.0",
+    "@nestjs/testing": "^11.0.0",
+    "@swc/core": "^1.15.11",
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.0.0",
+    "@types/supertest": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "@vitest/coverage-v8": "^4.0.18",
+    "@vitest/ui": "^4.0.18",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.2.0",
+    "reflect-metadata": "^0.2.0",
+    "rimraf": "^5.0.0",
+    "rxjs": "^7.8.1",
+    "supertest": "^6.3.4",
+    "ts-node": "^10.9.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.4.0",
+    "unplugin-swc": "^1.5.9",
+    "vitest": "^4.0.18"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^10.0.0 || ^11.0.0",
+    "@nestjs/core": "^10.0.0 || ^11.0.0",
+    "reflect-metadata": "^0.1.13 || ^0.2.0",
+    "rxjs": "^7.8.1"
+  }
+}
