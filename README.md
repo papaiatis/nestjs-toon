@@ -523,7 +523,7 @@ Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for g
 
 ## License
 
-MIT © [Attila Papai](https://github.com/yourusername)
+MIT © [Attila Papai](https://github.com/papaiatis)
 
 ## Resources
 
@@ -534,9 +534,9 @@ MIT © [Attila Papai](https://github.com/yourusername)
 
 ## Support
 
-- 🐛 [Report bugs](https://github.com/yourusername/nestjs-toon/issues)
-- 💡 [Request features](https://github.com/yourusername/nestjs-toon/issues)
-- 📖 [Documentation](https://github.com/yourusername/nestjs-toon#readme)
+- 🐛 [Report bugs](https://github.com/papaiatis/nestjs-toon/issues)
+- 💡 [Request features](https://github.com/papaiatis/nestjs-toon/issues)
+- 📖 [Documentation](https://github.com/papaiatis/nestjs-toon#readme)
 
 ---
 
